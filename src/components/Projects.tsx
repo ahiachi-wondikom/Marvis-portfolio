@@ -29,7 +29,7 @@ const Projects = () => {
 			description:
 				'A dynamic and interactive color palette generator built with vanilla JavaScript. This tool allows users to generate random color schemes, fine-tune colors using HSL sliders, lock colors in place, copy hex values, and save palettes to local storage. Perfect for UI/UX designers, front-end developers, or anyone who loves colors!',
 			image: 'color.png',
-			tech: ['React', 'Css'],
+			tech: ['Js', 'Css'],
 			github: 'https://github.com/ahiachi-wondikom/color-picker',
 			live: 'https://ahiachi-wondikom.github.io/color-picker/',
 			featured: false,
@@ -141,7 +141,7 @@ const Projects = () => {
 						variant='outline'
 						size='lg'
 						className='border-primary text-primary hover:bg-primary hover:text-primary-foreground'
-						onClick={() => window.open('https://github.com/Miss-Marvis')}
+						onClick={() => window.open('https://github.com/ahiachi-wondikom')}
 					>
 						View All Projects on GitHub
 					</Button>
