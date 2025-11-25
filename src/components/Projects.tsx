@@ -25,13 +25,13 @@ const Projects = () => {
 			featured: true,
 		},
 		{
-			title: 'React Quiz App',
+			title: 'Color Palette Generator',
 			description:
-				'A modern interactive quiz application built with react and quiz, It dynamically handles quiz states, provides real-time feedback, and supports multiple-choice questions and provides a seamless user experience.',
-			image: '/quiz.png',
+				'A dynamic and interactive color palette generator built with vanilla JavaScript. This tool allows users to generate random color schemes, fine-tune colors using HSL sliders, lock colors in place, copy hex values, and save palettes to local storage. Perfect for UI/UX designers, front-end developers, or anyone who loves colors!',
+			image: 'color.png',
 			tech: ['React', 'Css'],
-			github: 'https://github.com/Miss-Marvis/react-quiz',
-			live: 'https://questions-answe.netlify.app/',
+			github: 'https://github.com/ahiachi-wondikom/color-picker',
+			live: 'https://ahiachi-wondikom.github.io/color-picker/',
 			featured: false,
 		},
 		{

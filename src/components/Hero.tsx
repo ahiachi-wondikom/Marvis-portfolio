@@ -10,7 +10,6 @@ const Hero = () => {
 	}
 	return (
 		<section className='relative min-h-screen flex items-center justify-center overflow-hidden'>
-			{/* Background with overlay */}
 			<div className='absolute inset-0 z-0'>
 				<div
 					className='absolute inset-0 bg-cover bg-center bg-no-repeat'
@@ -22,7 +21,6 @@ const Hero = () => {
 				<div className='absolute inset-0 bg-hero-gradient' />
 			</div>
 
-			{/* Content */}
 			<div className='relative z-10 text-center px-4 max-w-4xl mx-auto'>
 				<Badge variant='secondary' className='mb-6 animate-pulse'>
 					Available for new opportunities
@@ -37,7 +35,7 @@ const Hero = () => {
 						/>
 					</div>
 					<h1 className='text-5xl md:text-7xl font-bold bg-code-gradient bg-clip-text text-transparent'>
-						Wondikom Marvis
+						Wondikom Ahiachi
 					</h1>
 				</div>
 
