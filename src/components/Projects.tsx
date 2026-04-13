@@ -5,26 +5,6 @@ import { ExternalLink, Github } from 'lucide-react'
 const Projects = () => {
 	const projects = [
 		{
-			title: ' Hotel Management System',
-			description:
-				' A modern  Full Stack Hotel Management Web application built with Next.js featuring comprehensive  boking management, Staff authentication and real-time dashboard analytics',
-			image: '/cabins.png',
-			tech: ['React', 'Supabase', 'Tailwind CSS'],
-			github: 'https://github.com/Miss-Marvis/the-wild-oasis',
-			live: 'https://wood-craft-hotel.netlify.app',
-			featured: true,
-		},
-		{
-			title: ' City Explorer App',
-			description:
-				'A sleek and interactive React application that allows users to explore and bookmark cities around the world. It uses React Router for routing, context + useReducer for state management and Json server as a mock backend.',
-			image: '/worldwise.png',
-			tech: ['React', 'Css', 'Json Server, weather API'],
-			github: 'https://github.com/Miss-Marvis/worldwise',
-			live: 'https://worldwise-explorer.netlify.app/',
-			featured: true,
-		},
-		{
 			title: 'Color Palette Generator',
 			description:
 				'A dynamic and interactive color palette generator built with vanilla JavaScript. This tool allows users to generate random color schemes, fine-tune colors using HSL sliders, lock colors in place, copy hex values, and save palettes to local storage. Perfect for UI/UX designers, front-end developers, or anyone who loves colors!',
@@ -42,6 +22,34 @@ const Projects = () => {
 			tech: ['React', 'Tailwind CSS', 'Rest API'],
 			github: ' https://github.com/Miss-Marvis/react-pizza',
 			live: ' https://piza-react.netlify.app/',
+			featured: false,
+		},
+
+		{
+			title: 'Indigenous-ai-chatbot',
+			description:
+				'AI-powered medical chatbot supporting indigenous African languages including Yoruba, Igbo, Hausa, and English, enabling accessible health communication through natural language interaction.',
+			image: '/ai-chatbot.png',
+			tech: [
+				'Python',
+				'Hugging Face Spaces',
+				'Transformers/LLM API',
+				'Streamlit',
+			],
+			github:
+				' https://github.com/ahiachi-wondikom/indigenous-ai-health-chatbot',
+			live: ' https://huggingface.co/spaces/Wondikom/Indigenous-ai-chatbot',
+			featured: false,
+		},
+
+		{
+			title: 'React-Quiz-App',
+			description:
+				'A modern, interactive quiz application built with React and Vite. It dynamically handles quiz states, provides real-time feedback, and offers a clean UI with responsive design.',
+			image: '/React-app.png',
+			tech: ['React', 'Vite', 'CSS Modules', 'React Context'],
+			github: ' https://github.com/ahiachi-wondikom/react-quiz',
+			live: ' https://questions-answe.netlify.app/',
 			featured: false,
 		},
 	]
@@ -69,7 +77,7 @@ const Projects = () => {
 							<div className={`${project.featured ? 'md:flex' : ''}`}>
 								<div className={`${project.featured ? 'md:w-1/2' : ''}`}>
 									<div
-										className='aspect-video bg-muted bg-cover bg-center'
+										className='aspect-video bg-muted bg-contain bg-no-repeat bg-center'
 										style={{
 											backgroundImage: `url(${project.image})`,
 										}}

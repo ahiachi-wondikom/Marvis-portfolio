@@ -8,7 +8,7 @@ const Footer = () => {
 				<div className='flex flex-col md:flex-row justify-between items-center gap-6'>
 					<div className='text-center md:text-left'>
 						<h3 className='text-xl font-bold bg-code-gradient bg-clip-text text-transparent mb-2'>
-							Wondikom Marvis
+							Wondikom Ahiachi
 						</h3>
 						<p className='text-muted-foreground'>
 							Frontend Developer & Tech Enthusiast
@@ -43,10 +43,10 @@ const Footer = () => {
 				<div className='mt-8 pt-8 border-t border-border text-center'>
 					<p className='text-muted-foreground flex items-center justify-center gap-2'>
 						Made with <Heart className='h-4 w-4 text-primary fill-current' />{' '}
-						from Wondikom Marvis
+						from Wondikom Ahiachi
 					</p>
 					<p className='text-sm text-muted-foreground/60 mt-2'>
-						© 2025 Wondikom Marvis. All rights reserved.
+						© 2025 Wondikom Ahiachi. All rights reserved.
 					</p>
 				</div>
 			</div>
