@@ -1,10 +1,8 @@
-# 💼 Personal Portfolio – [Your Name]
+# 💼 Personal Portfolio – [Wondikom Ahiachi]
 
 Welcome to my personal portfolio! This project showcases my work, skills, and
 projects as a frontend developer. It's built to reflect my passion for clean
 design, responsive layouts, and user-friendly experiences.
-
-## 🌐 Live Demo
 
 ## github
 
@@ -12,7 +10,7 @@ design, responsive layouts, and user-friendly experiences.
 
 ## Live view
 
-👉 [Visit Portfolio](https://your-portfolio-url.com)
+👉 [Visit Portfolio](https://marvis-portfolio-five.vercel.app/)
 
 The only requirement is having Node.js & npm installed -
 [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
